@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #B7B7B7;
+}
+body{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    height:100vh;
+}
+.container{
+     height: 70vh; 
+     display:flex;
+     align-items: center; 
+}
+.ttgame{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1vmin;
+    align-items: center;
+    justify-content: center;
+}
+    
+.box{
+    height:18vmin;
+    width:18vmin;
+    flex-shrink: 1;
+    font-size:10vmin;
+    border-radius: 1rem;
+    background-color:#EDDFE0;
+    border: none;
+    color:#705C53;
+
+}
+#tw-msg{
+    font-size: 10vmin;
+    color:red;
+}
